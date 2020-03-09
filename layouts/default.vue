@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import Header from "~/components/Header.vue";
-import BottonList from "~/components/BottonList.vue";
+import Header from "@/components/Header.vue";
+import BottonList from "@/components/BottonList.vue";
 
 export default {
   components: {
