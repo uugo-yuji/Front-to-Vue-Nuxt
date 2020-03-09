@@ -2,6 +2,9 @@
 
 > My divine Nuxt.js project
 
+# Front
+Vue.js / Nuxt.jsを使ったフロントエンドの開発
+
 ## Build Setup
 
 ``` bash
