@@ -2,7 +2,7 @@
   <v-app id="keep" class="pa">
     <v-app-bar app clipped-left color="primary" dark>
       <v-app-bar-nav-icon @click="drawer = !drawer" />
-      <span class="title ml-3 mr-5">Google&nbsp;<span class="font-weight-light">Keep</span></span>
+      <span class="title ml-3 mr-5">動画Q&Aサービス</span>
       <v-text-field solo-inverted flat hide-details label="検索" prepend-inner-icon="search"/>
 
       <v-spacer />
