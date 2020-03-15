@@ -47,7 +47,10 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    'nuxt-material-design-icons'
+    'nuxt-material-design-icons',
+    '@nuxtjs/axios',
+    // CORSの為
+    '@nuxtjs/proxy'
   ],
   /*
   ** vuetify module configuration
@@ -79,5 +82,14 @@ export default {
     */
     extend (config, ctx) {
     }
-  }
+  },
+  // 追記
+  proxy: {
+    '/api': {
+      target: 'http://localhost:3000/api/v1/',
+      pathRewrite: {
+        '^/api' : '/'
+        }
+      }
+    }
 }
