@@ -23,7 +23,6 @@ import PostList from '@/components/PostList.vue'
 import axios from 'axios'
 let url = 'http://localhost:3000/api/v1/posts'
 
-
 export default {
   asyncData({ params }) {
     return axios.get(url)
