@@ -4,7 +4,7 @@
 
 # Front
 Vue.js / Nuxt.jsを使ったフロントエンドの開発
-バックエンド側　リンク github: https://github.com/uugo-yuji/Rails-API
+バックエンド側　リンク github: https://github.com/uugo-yuji/Backend-Rails-API
 
 ## Build Setup
 
